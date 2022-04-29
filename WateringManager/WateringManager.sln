@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WateringManager.Api", "WateringManager.Api\WateringManager.Api.csproj", "{BA22DFB5-1642-4A1E-B7AF-AB8E4B4D055A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. API", "01. API", "{F7F36A64-BA43-42DD-A828-42E6625BFD4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Application", "02. Application", "{642BA56E-438A-4A2A-A188-0AB5CBE96D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WateringManager.Application", "WateringManager.Application\WateringManager.Application.csproj", "{5255492D-50F4-4436-B355-CBB86A42FE34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Infrastructure", "03. Infrastructure", "{CDBE9D38-4092-48CA-A9C7-20144BF390DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WateringManager.Infrastructure", "WateringManager.Infrastructure\WateringManager.Infrastructure.csproj", "{AF13BE72-EE36-4833-966A-75750A6DF47F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Domain", "04. Domain", "{378F67F9-6B4D-496F-8948-6B072CF0FE49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WateringManager.Domain", "WateringManager.Domain\WateringManager.Domain.csproj", "{2C50742C-A3B1-420E-AC62-BDB874E82894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA22DFB5-1642-4A1E-B7AF-AB8E4B4D055A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA22DFB5-1642-4A1E-B7AF-AB8E4B4D055A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA22DFB5-1642-4A1E-B7AF-AB8E4B4D055A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA22DFB5-1642-4A1E-B7AF-AB8E4B4D055A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5255492D-50F4-4436-B355-CBB86A42FE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5255492D-50F4-4436-B355-CBB86A42FE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5255492D-50F4-4436-B355-CBB86A42FE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5255492D-50F4-4436-B355-CBB86A42FE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF13BE72-EE36-4833-966A-75750A6DF47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF13BE72-EE36-4833-966A-75750A6DF47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF13BE72-EE36-4833-966A-75750A6DF47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF13BE72-EE36-4833-966A-75750A6DF47F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C50742C-A3B1-420E-AC62-BDB874E82894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C50742C-A3B1-420E-AC62-BDB874E82894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C50742C-A3B1-420E-AC62-BDB874E82894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C50742C-A3B1-420E-AC62-BDB874E82894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA22DFB5-1642-4A1E-B7AF-AB8E4B4D055A} = {F7F36A64-BA43-42DD-A828-42E6625BFD4A}
+		{5255492D-50F4-4436-B355-CBB86A42FE34} = {642BA56E-438A-4A2A-A188-0AB5CBE96D1E}
+		{AF13BE72-EE36-4833-966A-75750A6DF47F} = {CDBE9D38-4092-48CA-A9C7-20144BF390DD}
+		{2C50742C-A3B1-420E-AC62-BDB874E82894} = {378F67F9-6B4D-496F-8948-6B072CF0FE49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D401FF93-C491-4B24-A0BF-391C21660F7E}
+	EndGlobalSection
+EndGlobal
